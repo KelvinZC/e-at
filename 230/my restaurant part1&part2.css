@@ -1,0 +1,243 @@
+
+.plate{
+    background:url("p1.jpg") no-repeat 0px 0px;
+    background-size:cover;
+    min-height:800px;
+    margin: -10px -10px;
+    position: relative;
+}
+
+.plate-top{
+    background: #fff;
+    width: 1050px;
+    height: 180px;
+    margin: 50px auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+}
+.plate-top img{
+    float: left;
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+    position: absolute;
+}
+ .plate-top HR{
+    border: 0;
+    height: 1px;
+    width: 80%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    right: 25px;
+     top:100px;
+     position:absolute;
+ }
+.plate-top h2{
+    position: absolute;
+    left: 220px;
+    top:-30px;
+    font-family: "Ink Free";
+    font-size: 60px;
+    color: green;
+}
+.plate-top h4{
+    position: absolute;
+    left: 370px;
+    top:4px;
+    font-family: "Ink Free";
+    font-size: 30px;
+    color: burlywood;
+}
+.details ul{
+    position: absolute;
+    right: 20px;
+}
+.details i{
+    color: grey;
+   font-size: larger;
+}
+
+.details li{
+    padding-right:20px;
+    float:left;
+    list-style-type: none;
+}
+
+.menu ul{
+   left: 180px;
+    top:110px;
+    position: absolute;
+}
+.menu li {
+    padding-right:80px;
+    float:left;
+    list-style-type: none;
+}
+.menu ul li a{text-decoration: none; color: grey}
+.menu ul li a:hover{ color: green }
+.plate2{
+    background: white;
+    width: 100%;
+    height: 190px;
+    position: relative;
+    margin-top:10px ;
+    margin-left: -10px;
+}
+
+
+.registerPart{
+    background: rgba(128,128,128, 0.7);
+    width: 1000px;
+    height: 500px;
+    margin: 250px auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+.restaurant_name{
+
+    width: 300px;
+    margin: 20px auto;
+
+}
+.restaurant_name input{
+    padding: 5px 10px;
+    background:white;
+    font-size: 15pt;
+    border-radius: 5px;
+    border: 1px dashed black;
+    width:300px;
+
+}
+
+.email{
+    width: 300px;
+    margin: 20px auto;
+
+}
+.email input{
+    padding: 5px 10px;
+    background:white;
+    font-size: 15pt;
+    border-radius: 5px;
+    border: 1px dashed black;
+    width:300px;
+
+}
+
+.postcode{
+    width: 300px;
+    margin: 20px auto;
+
+}
+.postcode input{
+    padding: 5px 10px;
+    background:white;
+    font-size: 15pt;
+    border-radius: 5px;
+    border: 1px dashed black;
+    width:300px;
+
+}
+
+.restaurant_address{
+    width: 300px;
+    margin: 20px auto;
+
+}
+.restaurant_address input{
+     padding: 5px 10px;
+     background:white;
+     font-size: 15pt;
+     border-radius: 5px;
+     border: 1px dashed black;
+     width:300px;
+
+ }
+
+.phone_number{
+    width: 300px;
+    margin: 20px auto;
+
+}
+.phone_number input{
+    padding: 5px 10px;
+    background:white;
+    font-size: 15pt;
+    border-radius: 5px;
+    border: 1px dashed black;
+    width:300px;
+
+}
+
+.restaurant_description{
+    width: 600px;
+    margin: 20px auto;
+
+}
+.restaurant_description textarea{
+    padding: 5px 10px;
+    background:white;
+    font-size: 15pt;
+    border-radius: 5px;
+    border: 1px dashed black;
+    width:600px;
+    height: 200px;
+}
+
+.file {
+    width: 500px;
+    margin: 20px auto;
+    height: 20px;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 5px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    line-height: 20px;
+}
+.file input {
+    width: 500px;
+    font-size: 100px;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+}
+
+.button{
+    width: 130px;
+    margin: 0px auto;
+}
+
+.nextButton{
+    width: 120px;
+    min-height: 20px;
+    text-decoration: none;
+    background:#DBC585;
+    color: green;
+    padding: 9px 14px;
+    font-size: 22px;
+    line-height: normal;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    border: 2px solid #DBC585;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+
+}
+
+.nextButton:hover{
+    border: 2px solid #478D06;
+    background:transparent;
+}
+

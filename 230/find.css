@@ -1,0 +1,198 @@
+
+body{
+background: lightgray ;
+}
+.plate{
+    background:url("p1.jpg") no-repeat 0px 0px;
+    background-size:cover;
+    min-height:400px;
+    min-width: 1400px;
+    margin: -10px -10px;
+    position: relative;
+
+}
+.plate-top{
+    background: #fff;
+    width: 1050px;
+    height: 180px;
+    margin: 50px auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+}
+.plate-top img{
+    float: left;
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+    position: absolute;
+}
+.plate-top HR{
+    border: 0;
+    height: 1px;
+    width: 80%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    right: 25px;
+    top:100px;
+    position:absolute;
+
+}
+.plate-top h2{
+    position: absolute;
+    left: 220px;
+    top:-30px;
+    font-family: "Ink Free";
+    font-size: 60px;
+    color: green;
+}
+
+.plate-top h4{
+    position: absolute;
+    left: 370px;
+    top:4px;
+    font-family: "Ink Free";
+    font-size: 30px;
+    color: burlywood;
+}
+
+.details ul{
+    position: absolute;
+    right: 20px;
+}
+.details i{
+    color: grey;
+    font-size: larger;
+}
+
+.details li{
+    padding-right:20px;
+    float:left;
+    list-style-type: none;
+}
+
+.menu ul{
+    left: 180px;
+    top:110px;
+    position: absolute;
+}
+.menu li {
+    padding-right:80px;
+    float:left;
+    list-style-type: none;
+}
+
+.menu ul li a{ text-decoration: none; color: grey}
+
+.menu ul li a:hover{ color: green }
+
+
+.search{
+    position: absolute;
+    margin: 60px auto;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width:1100px;
+   background:  white;
+    padding: 25px 50px;
+    min-width: 800px;
+    min-height: 100px;
+    border-radius:4px;
+}
+
+.form-inline .form-control, .form-inline .form-control {
+    border-radius: 1px;
+    color: #333;
+    background:  #eeeeee;
+    height: 40px;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.form-inline input[type=submit]{
+    padding: 0.45em;
+    display: inline-block;
+    width: 100px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1em;
+    text-decoration: none;
+    border: 2px solid #DBC585;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    text-align: center;
+    margin-right: 1em;
+    border-radius:4px;
+    background:#DBC585;
+}
+
+.form-inline input[type=submit]:hover{
+    border: 2px solid #478D06;
+    background:#DBC58580;
+}
+.search-name{
+    position: absolute;
+    margin-top: 20px;
+}
+.search-name .button{
+    padding: 0.45em;
+    display: inline-block;
+    width: 100px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1em;
+    text-decoration: none;
+    border: 2px solid #DBC585;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    text-align: center;
+    margin-right: 1em;
+    border-radius:4px;
+    background:#DBC585;
+}
+.search-name .input{
+
+    color: #333;
+    height: 30px;
+    margin-right: 10px;
+    width: 195px;
+}
+.search-name .button:hover{
+    border: 2px solid #478D06;
+    background:#DBC58580;
+
+}
+
+#map{
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -40px;
+}
+.imformation{
+    position: absolute;
+    background: white;
+    height: 200px;
+    width: 650px;
+    margin-top: 130px;
+    margin-left: 500px;
+    border-radius:4px;
+    border: 1px solid lightgray;
+}
+.imformation2{
+     position: absolute;
+     background: white;
+     height: 200px;
+     width: 650px;
+     margin-top: 380px;
+     margin-left: 500px;
+     border-radius:4px;
+     border: 1px solid lightgray;
+ }

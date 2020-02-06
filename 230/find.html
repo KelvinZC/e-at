@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="find.css"/>
+    <script src="https://kit.fontawesome.com/35ad53259c.js" crossorigin="anonymous"></script>
+    <script>
+        function initMap() {
+            // The location of Uluru
+            var uluru = {lat: 55.3781, lng:  0};
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 4, center: uluru});
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+    </script>
+
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxs34s6XwAE8Dlo_E6M84qBxxf2MQskto&callback=initMap">
+    </script>
+
+</head>
+<body>
+<div class="plate">
+    <div class="plate-top">
+        <HR >
+        <img src="preview (1).png">
+        <h2>E-at</h2> <h4>foodie for the environment</h4>
+        <div class="details">
+            <ul>
+                <li><a href="login.html"><i class="fas fa-user"></i></a></li>
+                <li><a href="favor%20list.html"><i class="fas fa-star"></i></a></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="HOME.html">Home</a></li>
+                <li><a href="find.html">Find Restaurants</a></li>
+                <li><a href="certification%20standard.html">Certification Standards</a></li>
+                <li><a href="my%20restaurant%20part1.html">My Restaurant</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="search ">
+        <form action="" class=" form-inline">
+            <select name="" id="" class="form-control">
+                <option selected>Location</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+                <select name="" id="" class="form-control">
+                    <option selected>Cuisine</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                <select name="" id="" class="form-control">
+                    <option selected>Green point</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            <select name="" id="" class="form-control">
+                <option selected>Price</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <input type="submit" class="btn" value="Search">
+        </form>
+    <div class="search-name">
+    <form action="demo_form.php"method="get">
+       <h>Search by name:</h> <input type="search" class="input" name="search1"/>
+        <input type="submit" class="button" value="Search" />
+    </form>
+    </div>
+    <div id="map"></div>
+    <div class="imformation">
+    </div>
+    <div class="imformation2">
+    </div>
+    </div>
+</body>
+</html>
