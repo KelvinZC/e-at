@@ -98,10 +98,11 @@
 }
 
 .successful_submit{
-    width: 500px;
+    width: 1000px;
     height: 80px;
     margin:20px auto;
     font-size: 50px;
+    text-align: center;
     color: red;
     left: 0;
     right: 0;
